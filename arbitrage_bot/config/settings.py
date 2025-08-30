@@ -13,7 +13,7 @@ class Settings:
     sportsbooks: List[Sportsbook] = None
 
     # Arbitrage settings
-    min_profit_percentage: float = -10.0
+    min_profit_percentage: float = 2.5
     total_bet_amount: float = 100.0
 
     # Timing settings
